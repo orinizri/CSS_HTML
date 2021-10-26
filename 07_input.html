@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name">
+        </div>
+        <div>
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="message">Message</label><br>
+            <textarea name="message" id="message" cols="50" rows="1"></textarea>
+        </div>
+        <div>
+            <label for="gender">Gender</label><br>
+            <select name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female" selected>Female</option>
+                <option value="Queer">Queer</option>
+            </select>
+        </div>
+        <div>
+            <label for="membership">Membership</label>
+            <input type="checkbox" name="standard" id="membership"> Standard
+            <input type="checkbox" name="premium" id="membership"> Super
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
